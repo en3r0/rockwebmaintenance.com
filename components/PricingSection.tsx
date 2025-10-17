@@ -1,5 +1,4 @@
 
-
 import React, { useEffect } from 'react';
 import { PRICING_PLANS } from '../constants';
 import type { Plan } from '../types';
@@ -29,15 +28,16 @@ const PlanCard: React.FC<PlanCardProps> = ({ plan, onGetStartedClick }) => {
               style: {
                 shape: 'rect',
                 color: 'blue',
-                layout: 'vertical',
-                label: 'subscribe'
+                layout: 'horizontal',
+                label: 'subscribe',
+                tagline: false
               },
-              createSubscription: function(_data: any, actions: any) {
+              createSubscription: function(data: any, actions: any) {
                 return actions.subscription.create({
                   plan_id: plan.paypalPlanId
                 });
               },
-              onApprove: function(data: any, _actions: any) {
+              onApprove: function(data: any, actions: any) {
                 alert(`Subscription successful! Your ID is ${data.subscriptionID}`);
               },
               onError: function(err: any) {
@@ -99,18 +99,7 @@ const PlanCard: React.FC<PlanCardProps> = ({ plan, onGetStartedClick }) => {
             Request a Quote
           </button>
         ) : plan.paypalPlanId ? (
-          <div className="relative group">
-            <button
-              disabled
-              className={`block w-full text-center py-3 px-6 rounded-lg font-semibold shadow-md transition-all duration-300 ${plan.isMostPopular ? 'bg-primary text-white group-hover:bg-secondary' : 'bg-secondary text-white group-hover:bg-primary'}`}
-            >
-              Get Started
-            </button>
-            <div
-              id={paypalButtonContainerId}
-              className="absolute top-0 left-0 w-full h-full opacity-0 cursor-pointer"
-            ></div>
-          </div>
+          <div id={paypalButtonContainerId} className="w-full"></div>
         ) : (
           <button onClick={onGetStartedClick} className={`block w-full text-center py-3 px-6 rounded-lg font-semibold shadow-md transition-all duration-300 ${buttonClass}`}>
             Get Started

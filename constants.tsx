@@ -1,4 +1,5 @@
 
+
 import type { NavLink, PainPoint, Service, Plan, Testimonial, FAQ } from './types';
 
 export const NAVIGATION_LINKS: NavLink[] = [
@@ -112,16 +113,16 @@ export const PRICING_PLANS: Plan[] = [
 
 export const TESTIMONIALS: Testimonial[] = [
   {
-    quote: 'Having them handle our site gives us complete peace of mind. We used to worry about every little update, but now we can just focus on our customers. No more tech worries!',
-    name: 'Sarah Jennings',
-    title: 'Owner, The Bloom Boutique',
-    avatar: 'https://picsum.photos/100/100?random=1',
+    quote: 'Dustin is amazing! He went above and beyond what I was expecting – and quickly! We are ranking higher on Google and have had more e-mails coming in through our website! The investment has definitely paid off!',
+    name: 'Ashley K.',
+    title: 'Business Owner',
+    avatar: 'images/AshleyK.jpg',
   },
   {
-    quote: 'The support is incredibly fast. They solved a critical checkout bug that was costing us sales, and our site speed has never been better. They are an essential part of our marketing team.',
-    name: 'Mark Chen',
-    title: 'Marketing Director, SaaS Innovate',
-    avatar: 'https://picsum.photos/100/100?random=2',
+    quote: 'Dustin has a great mind for detailed content planning and his metrics for business success are a breath of fresh air in a marketplace of unpredictability. Rest assured you’re in good hands!',
+    name: 'Alex M.',
+    title: 'Marketing Manager',
+    avatar: 'images/AlexM.jpg',
   },
 ];
 
