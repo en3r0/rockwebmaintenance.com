@@ -7,10 +7,8 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ onGetStartedClick }) => {
   return (
     <section 
-      className="relative text-white bg-no-repeat bg-cover bg-center"
-          <div className="absolute inset-0 bg-cover bg-center" ></div>
+      className="relative text-white"
       >
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-secondary/80 to-primary/90"></div>
       
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center py-20 md:py-32">
