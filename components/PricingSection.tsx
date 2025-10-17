@@ -129,7 +129,7 @@ const PricingSection: React.FC<PricingSectionProps> = ({ onGetStartedClick }) =>
         </div>
         <div className="text-center mt-12">
              <div className="inline-block bg-accent text-primary font-bold px-4 py-2 rounded-lg">
-                Save 15% with an annual plan!
+                Flexible Plans. Cancel Anytime.
             </div>
           <p className="mt-6 text-neutral-700 italic">
             "An expert tech partner for less than the cost of one freelance emergency fix."

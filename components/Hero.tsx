@@ -8,7 +8,7 @@ const Hero: React.FC<HeroProps> = ({ onGetStartedClick }) => {
   return (
     <section 
       className="relative text-white bg-no-repeat bg-cover bg-center"
-      style={{ backgroundImage: "url('https://images.unsplash.com/photo-1550745165-9bc0b252726a?q=80&w=2070&auto=format&fit=crop')" }}
+          <div className="absolute inset-0 bg-cover bg-center" ></div>
       >
       <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-secondary/80 to-primary/90"></div>
       
