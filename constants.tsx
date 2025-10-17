@@ -119,7 +119,7 @@ export const TESTIMONIALS: Testimonial[] = [
     avatar: '/images/AshleyK.jpg',
   },
   {
-    quote: 'Dustin has a great mind for detailed content planning and his metrics for business success are a breath of fresh air in a marketplace of unpredictability. Rest assured you’re in good hands!',
+    quote: 'The team has an incredible track record and working with them has been nothing short or amazing!',
     name: 'Alex M.',
     title: 'Marketing Manager',
     avatar: '/images/AlexM.jpg',
