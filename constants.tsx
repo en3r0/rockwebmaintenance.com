@@ -116,13 +116,13 @@ export const TESTIMONIALS: Testimonial[] = [
     quote: 'Dustin is amazing! He went above and beyond what I was expecting – and quickly! We are ranking higher on Google and have had more e-mails coming in through our website! The investment has definitely paid off!',
     name: 'Ashley K.',
     title: 'Business Owner',
-    avatar: 'images/AshleyK.jpg',
+    avatar: '/images/AshleyK.jpg',
   },
   {
     quote: 'Dustin has a great mind for detailed content planning and his metrics for business success are a breath of fresh air in a marketplace of unpredictability. Rest assured you’re in good hands!',
     name: 'Alex M.',
     title: 'Marketing Manager',
-    avatar: 'images/AlexM.jpg',
+    avatar: '/images/AlexM.jpg',
   },
 ];
 
